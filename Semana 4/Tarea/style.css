@@ -1,0 +1,387 @@
+/* CSS para página principal */
+img{
+    position:absolute;
+    top:20px;
+    left:40px;  
+}
+h1{
+    color:darkslateblue;
+    position: absolute;
+    top:20px;
+    left:230px;  
+}
+#titulo2{
+    color:darkslateblue ;
+    position: absolute;
+    top:55px;
+    left:300px; 
+}
+#face{
+    position:absolute;
+    top:40px;
+    left:950px;
+    height: 35px;
+    width: 60px;
+}
+#twitter{
+    position:absolute;
+    top:40px;
+    left:1010px;
+    height: 35px;
+    width: 35px;
+}
+#youtube{
+    position:absolute;
+    top:40px;
+    left:1055px;
+    height: 35px;
+    width: 40px;
+}
+nav{
+    position:absolute;
+    top:-10px;
+    left:330px;
+}
+table{
+    border-spacing: 120px 150px;
+}
+iframe{
+    position: absolute;
+    top:200px;  
+    left:80px;
+    width:29%; 
+    height:35%;
+}
+#imagend{
+    position:absolute;
+    top:200px;
+    left:490px;  
+}
+#imagenc{
+    position:absolute;
+    top:200px;
+    left:760px;  
+}   
+#imagent{
+    position:absolute;
+    top:200px;
+    left:1060px;  
+}
+#imagenp{
+    position:absolute;
+    top:380px;
+    left:490px;  
+}
+#buscador{
+    position:absolute;
+    top:50px;
+    left:1150px;  
+}
+#imageni{
+    position:absolute;
+    top:51px;
+    left:1305px; 
+}
+div{    
+  border-style:ridge;
+  height: 260px;
+  width: 385px;
+  position: absolute;
+  top:440px;
+  left:80px;  
+}
+#salto{
+  position: absolute;
+  top:10px;
+  left:20px; 
+  height: 100px;
+  width: 165px;
+}
+#buey{
+    position: absolute;
+    top:150px;
+    left:20px; 
+    height: 100px;
+    width: 165px;
+}
+#textos{
+    position: absolute;
+    top:20px;
+    left:210px; 
+    height: 100px;
+    width: 165px;
+}
+#galera{
+    position: absolute;
+    top:140px;
+    left:20px; 
+    height: 100px;
+    width: 165px;
+}
+#textog{
+    position: absolute;
+    top:150px;
+    left:210px; 
+    height: 100px;
+    width: 165px;
+}
+#cuadro2{
+  border-style:ridge;
+  height: 210px;
+  width: 385px;
+  position: absolute;
+  top:490px;
+  left:490px;  
+}
+#bolso{
+    position: absolute;
+    top:5px;
+    left:10px; 
+    height: 100px;
+    width: 130px;
+}
+#textob{
+    position: absolute;
+    top:55px;
+    left:160px; 
+    height: 100px;
+    width: 165px;
+}
+#carpa{
+    position: absolute;
+    top:120px;
+    left:20px; 
+    height: 90px;
+    width: 110px;
+}
+#textocarpa{
+    position: absolute;
+    top:150px;
+    left:160px; 
+    height: 100px;
+    width: 165px;
+}
+#cuadro3{
+    border-style:ridge;
+    height: 210px;
+    width: 385px;
+    position: absolute;
+    top:490px;
+    left:950px;  
+  }
+  #powrbank{
+    position: absolute;
+    top:5px;
+    left:10px; 
+    height: 100px;
+    width: 130px;
+}
+#textopower{
+    position: absolute;
+    top:55px;
+    left:200px; 
+    height: 100px;
+    width: 165px;
+}
+#gopro{
+    position: absolute;
+    top:120px;
+    left:50px; 
+    height: 90px;
+    width: 110px;
+}
+#textogopro{
+    position: absolute;
+    top:150px;
+    left:200px; 
+    height: 100px;
+    width: 165px;
+}
+#piedepagina{
+    border-style:ridge;
+    height: 105px;
+    width: 1255px;
+    position: absolute;
+    top:725px;
+    left:80px; 
+}
+/* CSS Para página de registro */
+#pepe{
+    position: absolute;
+    top:230px;       
+    left:450px;
+    height: 400px;
+    width: 400px;
+   
+}
+/* Posicionar elementos del formulario */
+#input1{
+    position: absolute;
+    top:10px;
+    left:90px; 
+}
+#input2{
+    position: absolute;
+    top:40px;
+    left:90px; 
+}
+#input3{
+    position: absolute;
+    top:90px;
+    left:130px; 
+}
+#input4{
+    position: absolute;
+    top:90px;
+    left:190px; 
+}
+#label1{
+    position: absolute;
+    top:70px;
+    left:110px; 
+}
+#label2{
+    position: absolute;
+    top:70px;
+    left:180px; 
+}
+#input5{
+    position: absolute;
+    top:120px;
+    left:90px; 
+}
+#input6{
+    position: absolute;
+    top:150px;
+    left:90px; 
+}
+#input7{
+    position: absolute;
+    top:180px;
+    left:90px; 
+}
+#input8{
+    position: absolute;
+    top:210px;
+    left:90px; 
+}
+#input9{
+    position: absolute;
+    top:240px;
+    left:90px; 
+}
+#input10{
+    position: absolute;
+    top:270px;
+    left:90px;  
+}
+#input11{
+    position: absolute;
+    top:300px;
+    left:90px;  
+}
+#input12{
+    position: absolute;
+    top:350px;
+    left:60px; 
+}
+#input13{
+    position: absolute;
+    top:350px;
+    left:270px; 
+}
+#formregi{
+    position: absolute;
+    top:170px;
+    left:500px; 
+}
+/* Nosotros */
+audio{
+    position: absolute;
+    top:260px;
+    left:500px;  
+}
+#historia{
+    position: absolute;
+    top:190px;
+    left:520px; 
+}
+#caminata1{
+    position: absolute;
+    top:380px;
+    left:90px; 
+    height:150px;
+    width: 300px;
+}
+#caminata2{
+    position: absolute;
+    top:380px;
+    left:950px; 
+    height: 150px;
+    width: 300px;
+}
+#caminata3{
+    position: absolute;
+    top:380px;
+    left:470px; 
+    height:150px;
+    width: 400px;
+}
+#año1{
+    position: absolute;
+    top:320px;
+    left:220px; 
+}
+#año2{
+    position: absolute;
+    top:320px;
+    left:640px; 
+}
+#año3{
+    position: absolute;
+    top:320px;
+    left:1080px; 
+}
+/* Viajes */
+#cuadroinfor{
+    position: absolute;
+    top:220px;
+    left:80px; 
+    width:400px;
+    height:400px;
+}
+#morrondecopa{
+    position: absolute; 
+    top:55px;
+    left:20px; 
+    height:100px;
+    width: 140px;
+}
+#morroncopa{
+    position: absolute;
+    top:-5px;
+    left:190px; 
+    height: 100px;
+    width: 165px;   
+}
+#pandeazucar{
+    position: absolute; 
+    top:250px;
+    left:20px; 
+    height:100px;
+    width: 140px;
+}
+#textopan{
+    position: absolute;
+    top:200px;
+    left:190px; 
+    height: 100px;
+    width: 165px;   
+}
+#cuadroinfor2{
+    position: absolute;
+    top:220px;
+    left:800px; 
+    width:400px;
+    height:400px;
+}

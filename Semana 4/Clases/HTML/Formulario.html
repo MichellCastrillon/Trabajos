@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="Formulario.html" method="GET"> <!--para enviar la informacion-->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+        <input type="submit" value="Enviar datos">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido">
+        <input type="submit" value="Enviar datos">
+
+        <label for="telefono">Telefono</label>
+        <input type="number" name="telefono">
+        
+    </form>
+    <hr>
+    <!--Tipos de ingresos-->
+    <form action="">
+        <label for="">Tipo texto</label>
+        <input type="text">
+        <br>
+        <br>
+        <label for="">Busqueda</label>
+        <input type="search">
+        <br>
+        <br>
+        <label for="">URL</label>
+        <input type="url">
+        <br>
+        <br>
+        <label for="">Email</label>
+        <input type="email">
+        <br>
+        <br>
+        <label for="">Contraseña</label>
+        <input type="password">
+        <br>
+        <br>
+        <label for="">Campo de texto</label>
+        <textarea name="" id="" cols="30"rows="10"></textarea>
+        <br>
+        <br>
+
+        <hr> <!--Numericas-->
+
+        <label for="">Numerico</label>
+        <input type="number">
+        <br>
+        <br>
+        <label for="">Rango</label>
+        <input type="range">
+        <br>
+        <br>
+        <label for="">Contraseña</label>
+        <input type="password">
+        <br>
+        <br>
+        <hr>
+
+        <label for="">Fecha</label>
+        <input type="date">
+        <br>
+        <br>
+
+        <label for="">Hora</label>
+        <input type="datetime">
+        <br>
+        <br>
+
+        <label for="">Fecha y Hora</label>
+        <input type="datetime-local">
+        <br>
+        <br>
+
+        <label for="">Semana</label>
+        <input type="week">
+        <br>
+        <br>
+
+        <hr>
+
+        <label for="">Color</label>
+        <input type="color">
+        <br>
+        <br>
+
+        <label for="">Cargar archivo</label>
+        <input type="file">
+        <br>
+        <br>
+        <hr>
+        <label for="">Radio Button</label>
+        <!-- <div>hombre</div> -->
+        <input type="radio" name="sexo" value="hombre">
+        <!-- <div>Mujer</div> -->
+        <input type="radio" name="sexo" value="mujer"> <!--Deben tener el mismo name para que escoja solo una opcion-->
+        <br>
+        <br>
+        <label for="">Checkbox<label>
+        <input type= "checkbox" name="acepta" value="1"> 
+        <input type= "checkbox" name="acepta" value="2">
+        <input type= "checkbox" name="acepta" value="3">
+        <br>
+        <br>
+        <label for="">Select-option<label>
+        <select name="" id="">
+            <option value="1">opcion1</option>
+            <option value="1">opcion2</option>
+            <option value="1">opcion3</option>
+        </select>
+        <br>
+        <br>
+        <label for="">Datalist<label></label>
+        <input type="text" list="items">
+        <datalist name="" id="items">
+            <option value="1">opcion1</option>
+            <option value="1">opcion2</option>
+            <option value="1">opcion3</option>
+        </datalist> 
+       
+        <hr>
+        <!--Enviar formularios-->
+        <label for="">Submit</label>
+        <input type="submit" value="Subir datos">
+        <br><br>
+        <label for="">Limpiar formularios</label>
+        <input type="reset" value="Limpiar">
+        <br><br>
+        <label for="">Boton normal</label>
+        <input type="button" value="Boton">
+        <br><br>
+
+    </form>
+
+    
+</body>
+</html>

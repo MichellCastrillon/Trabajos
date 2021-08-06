@@ -1,0 +1,17 @@
+p{
+    color: green;
+}
+h3{
+    color: hotpink;
+    background: green;
+}
+h1{
+    text-align: center;
+    
+}
+#titulof{ 
+    color: red;
+}
+#titulof:hover{
+    color:green;
+}
