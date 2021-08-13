@@ -1,0 +1,51 @@
+div{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+
+    max-width: 400px;
+    min-width: 300px;
+
+    max-height: 400px;
+    min-height: 300px;
+
+    /* padding=espaciado interno*/
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+    /* Aplicar padding a todo el cuadro con un mismo valor */
+    padding: 50px;
+
+    padding: 50px 30px 50px 40px;
+
+    /* margin espaciado=externo*/
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    /* Esto hace lo mismo que el codigo anterior */
+    margin: 50px;
+    margin: 10px 70px 10px 300px;
+
+    /* bordes */
+    border-top-width: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    border-bottom: 10px;
+    border-color: black;
+    border-style: solid;
+
+    /* esto hace lo mismo que todo el codigo anterior */
+    border:10px solid black;
+    border-radius: 10%; 
+
+    /* sacado de la pagina webhttps://www.cssmatic.com/border-radius */
+    border-radius: 0px 110px 110px 10px;
+    -moz-border-radius: 0px 110px 110px 10px;
+    -webkit-border-radius: 0px 110px 110px 10px;
+    border: 15px solid #000000;
+    
+}

@@ -1,0 +1,19 @@
+h1{
+    color: blueviolet;
+}
+#primerparrafo{
+    color: brown;
+}
+.grupoparrafos{
+    color:green;
+} 
+/* cuando se pasa mouse por encima, cambia de color */
+h1:hover{ 
+    color:red;
+}
+input[type="text"]{
+    background: blue;
+}
+*{
+    color:red !important
+}

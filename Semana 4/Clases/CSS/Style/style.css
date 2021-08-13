@@ -12,6 +12,7 @@ h1{
 #titulof{ 
     color: red;
 }
-#titulof:hover{
+/* lo que hace es que al apsar el mouse cambia de color */
+#titulof:hover{ 
     color:green;
 }

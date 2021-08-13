@@ -1,0 +1,16 @@
+/* modifica todo lo que este dentro de la etiqueta p */
+#contenedor p{
+    color: blue;
+}
+/* modifica el priemr parrafo */
+#contenedor p:first-child{
+    color: chartreuse;
+}
+/* modificar segundo parrafo o cuqluier otro */
+#contenedor p:nth-child(2){
+    color:cyan;
+}
+/* modificar ultimo parrafo */
+#contenedor p:last-child{
+    color: darkmagenta;
+}

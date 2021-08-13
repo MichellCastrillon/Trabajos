@@ -1,0 +1,36 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 200px ;
+
+    /* palabra clave */
+    background-color:#3B91A2  ;
+
+    /* Hexadecimal */
+    background-color: rgb(226, 61, 25) ;
+
+    /* HSL */
+    background-color: hsl(175deg, 81%, 54%);
+
+    /* trasparencia */
+    background-color: transparent;
+    background-color: #084753;
+    background-color: rgba(226, 62, 25, 0.486);
+    background-color: rgba(43, 233, 217, 0.507);
+
+    /* degradado */
+    background:linear-gradient(10deg,blue,red);
+    background: radial-gradient(blue,green,red,orange);
+    
+    /* ejemplo de www.cssmatic.com*/
+    background: rgba(130,75,232,1);
+    background: -moz-linear-gradient(left, rgba(130,75,232,1) 4%, rgba(94,130,167,1) 27%, rgba(32,227,55,1) 67%, rgba(32,227,55,1) 93%);
+    background: -webkit-gradient(left top, right top, color-stop(4%, rgba(130,75,232,1)), color-stop(27%, rgba(94,130,167,1)), color-stop(67%, rgba(32,227,55,1)), color-stop(93%, rgba(32,227,55,1)));
+    background: -webkit-linear-gradient(left, rgba(130,75,232,1) 4%, rgba(94,130,167,1) 27%, rgba(32,227,55,1) 67%, rgba(32,227,55,1) 93%);
+    background: -o-linear-gradient(left, rgba(130,75,232,1) 4%, rgba(94,130,167,1) 27%, rgba(32,227,55,1) 67%, rgba(32,227,55,1) 93%);
+    background: -ms-linear-gradient(left, rgba(130,75,232,1) 4%, rgba(94,130,167,1) 27%, rgba(32,227,55,1) 67%, rgba(32,227,55,1) 93%);
+    background: linear-gradient(to right, rgba(130,75,232,1) 4%, rgba(94,130,167,1) 27%, rgba(32,227,55,1) 67%, rgba(32,227,55,1) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#824be8', endColorstr='#20e337', GradientType=1 );
+    
+}
+

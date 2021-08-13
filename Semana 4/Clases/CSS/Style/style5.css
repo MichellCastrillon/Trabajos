@@ -1,0 +1,34 @@
+/* Estilods de textos */
+h1{
+    /* tamaño de letra */
+    font-size: 50px;
+    /* ancho de la letra */
+    font-weight: 100px;
+    font-style: italic; 
+    color:blue;
+    cursor: pointer;
+
+    /* Espaciadode letras */
+    letter-spacing: 10px;
+
+    /* Espaciado en palabras */
+    word-spacing: 300px;
+
+    /* interlineado */
+    line-height: 100px;
+
+    /* sangria */
+    text-indent: 200px;
+
+    /* alinear textos */
+    text-align:center;
+
+    /* mayusculas y minusculas */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    /*primera letra mayuscula*/
+    text-transform: capitalize;
+}
+
+
+
